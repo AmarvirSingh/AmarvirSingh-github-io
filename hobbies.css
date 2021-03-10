@@ -12,6 +12,7 @@ header{
     background-color: aquamarine;
     border-radius: 1.25em;
     text-align: center;
+    box-shadow: 0.50em 0.50em 0.75em black;
     
 }
 
@@ -47,9 +48,16 @@ nav a{
 }
 .left p {
     text-align: start;
-    font-size: 1.25em;
+    font-size: 1em;
+    margin: 10px;
 }
 
+.left b {
+    text-align: start;
+    margin: 10px;
+    text-decoration: underline;
+    
+}
 aside{
     text-align:center;
     border-radius: 1em;
@@ -62,6 +70,12 @@ aside{
 aside li{
     text-align:  start;
     font-weight: 300 ;
+    font-weight: bolder;
+    
+    color: darkorange;
+}
+aside a{
+    text-decoration: wavy;
 }
 
 .left img{
@@ -86,17 +100,25 @@ footer
     
     clear: left;
     background-color: aquamarine;
+    border-bottom-right-radius: 1.25em;
+    border-top-left-radius: 1.25em;
+    border-color: black;
+    border-style: solid;
+    
     margin-top: 10pt;
     /* padding: 0.25em;
     margin-top: 20px; */
 }
 
 
+
 footer img{
+    margin-top: 5px;
+    margin-left: 5px;
     width: 20px;
     height: 20px;
 }
 footer a{
     text-decoration: none;
-}
+} 
 
